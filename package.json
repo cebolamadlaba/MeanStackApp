@@ -1,0 +1,16 @@
+{
+  "name": "meanapp",
+  "version": "1.0.0",
+  "description": "Advance internet programming",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cebo shezi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "loader.js": "^4.7.0",
+    "Angularjs":"^1.7.8"
+  }
+}

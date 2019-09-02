@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app>
+<body>
+
+<h1>Welcome to Advance Programing</h1>
+<p>Doing mean stack.</p>
+
+<div>
+    <label>Name:</label>
+    <input type="text" ng-model="name" placeholder="Enter a name here">
+    <input type="text" ng-model="studentNumber" placeholder="Enter a student number here">
+    <input type="text" ng-model="subject" placeholder="Enter a subject here">
+    <hr>
+    <h1 ng-show="name">Hello: {{name}}</h1></br>
+    <h1 ng-show="studentNumber">Student number: {{studentNumber}}</h1></br>
+    <h1 ng-show="subject">Subject: {{subject}}</h1>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
+</body>
+</html>
